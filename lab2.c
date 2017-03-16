@@ -1,11 +1,10 @@
 #include <stdio.h>
-using namespace std;
 int main()
 {
   int sum,time;
   printf("Vvedite srok i summu");
   scanf("%d %d",&time,&sum); 
-  if (time > 365; time < 0; sum < 100){
+  if (time > 365, time < 0, sum < 100){
     printf ("Nekorektno vvedni danie");
   } else {
     if (time < 31){
